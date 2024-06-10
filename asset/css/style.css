@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+body {
+	background-color: #e5e8f0;
+	overflow-x: hidden;
+}
+
+.container{
+   max-width: 90%;
+}
+
+.navbar {
+   font-family: 'Oswald', sans-serif;
+   font-size: 18px;
+}
+
+.navbar .navbar-nav .nav-item:hover {
+   color: rgb(6, 162, 201);
+}
+
+.carousel-inner{
+   position: relative;
+}
+
+.carousel-inner .carousel-caption {
+   position: absolute ;
+   top: 0;
+   right: 0;
+   text-align: left;
+   width: 28%;
+   margin-left: 660px;
+   padding-top: 100px;
+   font-family: 'Oswald', sans-serif;
+}
+
+.btn-carousel {
+   border-radius: 20px !important;
+   width: 160px;
+}
+
+.head {
+   font-family: 'Francois One', sans-serif;
+   font-size: 36px;
+}
+
+hr {
+   border: 1px solid rgb(196, 196, 196);
+}
+
+.price {
+   color: rgb(247, 161, 0) !important;
+}
+
+
+
+
+.features .box-container .box{
+   padding: 3rem 2rem;
+   background: #fff;
+   outline:var(--outline);
+   outline-offset: -1rem;
+   text-align: center;
+   box-shadow: var(--box-shadow);
+
+}
+
+.features .box-container .box:hover{
+   background: var(--dark);
+   outline-offset: 0rem;
+}
+
+.features .box-container .box img{
+   margin: 1rem 0;
+   height: 15rem;
+}
+
+.features .box-container .box h3{
+   font-size: 1.5rem;
+   line-height: 1.8;
+   color:var(--black);
+
+}
+.features .box-container .box p{
+   font-size:  1.5rem;
+   line-height: 1.8;
+   color:var(--light-color);
+   padding: 1rem 0;
+}
