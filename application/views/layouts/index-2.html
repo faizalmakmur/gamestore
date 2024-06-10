@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="<?= base_url() ?>/assets/vendors/bootstrap/css/bootstrap.min.css">
+     <link rel="stylesheet" href="<?= base_url() ?>/assets/vendors/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="<?= base_url() ?>/assets/vendors/summernote/dist/summernote-bs4.css">
+    <link rel="stylesheet" href="<?= base_url() ?>/assets/css/style.css">
+    <link rel="stylesheet" href="<?= base_url() ?>/assets/css/style1.css">
+    <link rel="stylesheet" href="<?= base_url() ?>/assets/css/responsive.css">
+    <link rel="stylesheet" href="<?= base_url() ?>/assets/css/slick.css">
+    <link rel="icon" href="<?= base_url() ?>/images/logo/coli.ico">
+    <title>Official Game Store - <?= $title ?></title>
+</head>
+<body>
+    <!-- preloader -->
+    <div id="preloader">
+        <div id="loading-center">
+            <div id="loading-center-absolute">
+                <img src="img/icon/preloader.svg" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- preloader-end -->
+    <header style="position: fixed; z-index: 100; width: 100%;">
+        <div class="header-top-area d-none d-lg-block">
+            <div class="container-fluid container-full-padding">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 d-none d-lg-block">
+                        <div class="header-top-offer">
+                            <p>Exclusive Game For Today ! Offer</p>
+                            <span class="coming-time" data-countdown="2020/6/20"></span>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="header-top-right">
+                            <div class="header-social">
+                                <ul>
+                                    <li><a href="https://www.facebook.com/muhammadfaizal.makmur"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="https://twitter.com/makmurpp"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="https://id.pinterest.com/muhammadfaizalmakmur/_saved/"><i class="fab fa-pinterest-p"></i></a></li>
+                                    <li><a href="https://id.linkedin.com/in/muhammad-faizal-makmur-514226222"><i class="fab fa-linkedin-in"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="header-top-action">
+                                <ul>
+                                    <li>
+                                        <div class="header-top-mail">
+                                            <p><span>|</span><i class="far fa-envelope"></i><a href="#"><span class="__cf_email__" data-cfemail="cea7a0a8a18ea9abada1a7a0a8a1e0ada1a3">[email&#160;protected]</span></a></p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="header-user-login">
+                                            <a href="http://localhost/gstore/login"><i class="fas fa-user"></i>Login</a>
+                                        </div>
+                                        <div class="header-user-login">
+                                            <a href="http://localhost/gstore/register"><i class="fas fa-user"></i>Sign up</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="sticky-header">
+            <div class="container custom-container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="main-menu menu-style-two">
+                            <nav>
+                                <div class="logo d-block d-lg-none">
+                                    <a href="index-5.html"><img src="img/logo/logo.png" alt="Logo"></a>
+                                </div>
+                                <div class="navbar-wrap d-none d-lg-flex">
+                                    <ul class="left">
+                                        <li class="show"><a href="#">Home</a>
+                                            <ul class="submenu">
+                                                <li><a href="index-2.html">Home One</a></li>
+                                                <li><a href="index-3.html">Home Two</a></li>
+                                                <li><a href="index-4.html">Home Three</a></li>
+                                                <li><a href="index.html">Home Four</a></li>
+                                                <li><a href="index-5.html">Home Five</a></li>
+                                                <li><a href="index-6.html">Home Six</a></li>
+                                                <li class="active"><a href="index-7.html">Home Seven</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="about-us.html">About</a></li>
+                                        <li><a href="game-overview.html">Overview</a></li>
+                                        <li><a href="community.html">Community</a></li>
+                                    </ul>
+                                    <div class="logo">
+                                        <a href="index-3.html"><img src="img/logo/h6_logo.png" alt="Logo"></a>
+                                    </div>
+                                    <ul class="right">
+                                        <li><a href="#">Pages</a>
+                                            <ul class="submenu">
+                                                <li><a href="upcoming-games.html">Upcoming Games</a></li>
+                                                <li><a href="game-single.html">Game Single</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="shop.html">Store</a></li>
+                                        <li><a href="#">Blog</a>
+                                            <ul class="submenu">
+                                                <li><a href="blog.html">News Page</a></li>
+                                                <li><a href="blog-details.html">News Details</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="contact.html">contact</a></li>
+                                    </ul>
+                                </div>
+                                <div class="header-action">
+                                    <ul>
+                                        <li class="header-search"><a href="#" data-toggle="modal" data-target="#search-modal"><i class="fas fa-search"></i></a></li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                        <div class="mobile-menu-wrap d-block d-lg-none">
+                            <nav>
+                                <div id="mobile-menu" class="navbar-wrap">
+                                    <ul>
+                                        <li class="show"><a href="#">Home</a>
+                                            <ul class="submenu">
+                                                <li><a href="index-2.html">Home One</a></li>
+                                                <li><a href="index-3.html">Home Two</a></li>
+                                                <li><a href="index-4.html">Home Three</a></li>
+                                                <li><a href="index.html">Home Four</a></li>
+                                                <li><a href="index-5.html">Home Five</a></li>
+                                                <li><a href="index-6.html">Home Six</a></li>
+                                                <li><a href="index-7.html">Home Seven</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="about-us.html">About</a></li>
+                                        <li><a href="game-overview.html">Overview</a></li>
+                                        <li><a href="community.html">Community</a></li>
+                                        <li><a href="#">Pages</a>
+                                            <ul class="submenu">
+                                                <li><a href="upcoming-games.html">Upcoming Games</a></li>
+                                                <li><a href="game-single.html">Game Single</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="shop.html">Store</a></li>
+                                        <li><a href="#">Blog</a>
+                                            <ul class="submenu">
+                                                <li><a href="blog.html">News Page</a></li>
+                                                <li><a href="blog-details.html">News Details</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="contact.html">contact</a></li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                        <div class="mobile-menu"></div>
+                    </div>
+                    <!-- Modal Search -->
+                    <div class="modal fade" id="search-modal" tabindex="-1" role="dialog" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <form>
+                                    <input type="text" placeholder="Search here...">
+                                    <button><i class="fa fa-search"></i></button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-bottom-bg"></div>
+    </header>
+    <!-- header-area-end -->
+    <!-- Carousel -->
+<br></br><br></br><div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+	<div class="carousel-inner">
+		<?php $no = 0;?>
+		<?php foreach($banners as $b) : ?>
+			<?php $no++;  ?>
+			<div class="carousel-item <?php if($no <= 1) { echo "active"; } ?>" style="margin-top: 70px;">
+				<img src="<?= base_url() ?>images/banner/<?= $b['image'] ?>" class="d-block w-100">
+				<div class="carousel-caption d-none d-md-block  <?= $b['text_color'] ?>">
+					<h3 class="text-uppercase"><?= $b['head'] ?></h3>
+					<h5 class="mt-3"> <?= $b['content'] ?></h5>
+					<a href="<?= base_url('home/detail/' . $b['product_id']) ?>" class="btn btn-success badge-pill mt-3" style="color:white;" style="width:200px">ORDER NOW</a>
+				</div>
+			</div>
+		<?php endforeach ?> 
+	</div>
+	<a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		<span class="sr-only">Previous</span>
+	</a>
+	<a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+		<span class="carousel-control-next-icon" aria-hidden="true"></span>
+		<span class="sr-only">Next</span>
+	</a>
+</div>
+<!-- End of Carousel -->
+
+<!-- List Item -->
+<div class="container">
+	<div class="row mt-5">
+		<div class="col">
+			<h2 style="color:black;" class="head">Latest releases</h2>
+			<hr>
+		</div>
+	</div>
+
+	<div class="row mb-5">
+		<?php foreach($games as $game) : ?>
+			<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mt-4">
+				<div class="card">
+					<img src="<?= base_url() ?>/images/game/<?= $game['image'] ?>" class="card-img-top" alt="<?= $game['name'] ?>">
+					<div class="card-body">
+						<h6 class="card-title font-weight-bold" style="color: black;"><?= $game['name'] ?></h6>
+						<h6 class="text-muted"><?= ucfirst($game['edition']) ?> Edition</h6>
+						<h3 class="text-center text-warning price mt-4">Rp.<?= number_format($game['price'], 2, ', ', '.'); ?></h3>
+						<a href="<?= base_url('home/detail/' . $game['id']) ?>" style="color:white;" class="btn btn-outline-info btn-sm btn-block mt-3">See More</a>
+					</div>
+				</div>
+			</div>
+		<?php endforeach; ?>
+	</div>
+</div>
+<!-- End of List Item -->
+<div class="container">
+	<div class="row mt-5">
+		<div class="col">
+			<h2 style="color:black;" class="head">Adventure</h2>
+			<hr>
+		</div>
+	</div>
+
+	<div class="row mb-5">
+		<?php foreach($games as $game) : ?>
+			<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mt-4">
+				<div class="card">
+					<img src="<?= base_url() ?>/images/game/<?= $game['image'] ?>" class="card-img-top" alt="<?= $game['name'] ?>">
+					<div class="card-body">
+						<h6 class="card-title font-weight-bold" style="color: black;"><?= $game['name'] ?></h6>
+						<h6 class="text-muted"><?= ucfirst($game['edition']) ?> Edition</h6>
+						<h3 class="text-center text-warning price mt-4">Rp.<?= number_format($game['price'], 2, ', ', '.'); ?></h3>
+						<a href="<?= base_url('home/detail/' . $game['id']) ?>" style="color:white;" class="btn btn-outline-info btn-sm btn-block mt-3">See More</a>
+					</div>
+				</div>
+			</div>
+		<?php endforeach; ?>
+	</div>
+</div>
+
+<div class="container">
+	<div class="row mt-5">
+		<div class="col">
+			<h2 style="color:black;" class="head">Moba</h2>
+			<hr>
+		</div>
+	</div>
+
+	<div class="row mb-5">
+		<?php foreach($games as $game) : ?>
+			<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mt-4">
+				<div class="card">
+					<img src="<?= base_url() ?>/images/game/<?= $game['image'] ?>" class="card-img-top" alt="<?= $game['name'] ?>">
+					<div class="card-body">
+						<h6 class="card-title font-weight-bold" style="color: black;"><?= $game['name'] ?></h6>
+						<h6 class="text-muted"><?= ucfirst($game['edition']) ?> Edition</h6>
+						<h3 class="text-center text-warning price mt-4">Rp.<?= number_format($game['price'], 2, ', ', '.'); ?></h3>
+						<a href="<?= base_url('home/detail/' . $game['id']) ?>" style="color:white;" class="btn btn-outline-info btn-sm btn-block mt-3">See More</a>
+					</div>
+				</div>
+			</div>
+		<?php endforeach; ?>
+	</div>
+</div>
+
+<div class="container">
+	<div class="row mt-5">
+		<div class="col">
+			<h2 style="color:black;" class="head">FPS</h2>
+			<hr>
+		</div>
+	</div>
+
+	<div class="row mb-5">
+		<?php foreach($games as $game) : ?>
+			<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mt-4">
+				<div class="card">
+					<img src="<?= base_url() ?>/images/game/<?= $game['image'] ?>" class="card-img-top" alt="<?= $game['name'] ?>">
+					<div class="card-body">
+						<h6 class="card-title font-weight-bold" style="color: black;"><?= $game['name'] ?></h6>
+						<h6 class="text-muted"><?= ucfirst($game['edition']) ?> Edition</h6>
+						<h3 class="text-center text-warning price mt-4">Rp.<?= number_format($game['price'], 2, ', ', '.'); ?></h3>
+						<a href="<?= base_url('home/detail/' . $game['id']) ?>" style="color:white;" class="btn btn-outline-info btn-sm btn-block mt-3">See More</a>
+					</div>
+				</div>
+			</div>
+		<?php endforeach; ?>
+	</div>
+</div>
+
+<div class="container">
+	<div class="row mt-5">
+		<div class="col">
+			<h2 style="color:black;" class="head">RPG</h2>
+			<hr>
+		</div>
+	</div>
+
+	<div class="row mb-5">
+		<?php foreach($games as $game) : ?>
+			<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mt-4">
+				<div class="card">
+					<img src="<?= base_url() ?>/images/game/<?= $game['image'] ?>" class="card-img-top" alt="<?= $game['name'] ?>">
+					<div class="card-body">
+						<h6 class="card-title font-weight-bold" style="color: black;"><?= $game['name'] ?></h6>
+						<h6 class="text-muted"><?= ucfirst($game['edition']) ?> Edition</h6>
+						<h3 class="text-center text-warning price mt-4">Rp.<?= number_format($game['price'], 2, ', ', '.'); ?></h3>
+						<a href="<?= base_url('home/detail/' . $game['id']) ?>" style="color:white;" class="btn btn-outline-info btn-sm btn-block mt-3">See More</a>
+					</div>
+				</div>
+			</div>
+		<?php endforeach; ?>
+	</div>
+</div>
+
+<div class="container">
+	<div class="row mt-5">
+		<div class="col">
+			<h2 style="color:black;" class="head">Puzzle</h2>
+			<hr>
+		</div>
+	</div> 
+
+	<div class="row mb-5">
+		<?php foreach($games as $game) : ?>
+			<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mt-4">
+				<div class="card">
+					<img src="<?= base_url() ?>/images/game/<?= $game['image'] ?>" class="card-img-top" alt="<?= $game['name'] ?>">
+					<div class="card-body">
+						<h6 class="card-title font-weight-bold" style="color: black;"><?= $game['name'] ?></h6>
+						<h6 class="text-muted"><?= ucfirst($game['edition']) ?> Edition</h6>
+						<h3 class="text-center text-warning price mt-4">Rp.<?= number_format($game['price'], 2, ', ', '.'); ?></h3>
+						<a href="<?= base_url('home/detail/' . $game['id']) ?>" style="color:white;" class="btn btn-outline-info btn-sm btn-block mt-3">See More</a>
+					</div>
+				</div>
+			</div>
+		<?php endforeach; ?>
+	</div>
+</div>
+
+<!-- Footer -->
+<?php $this->load->view('layouts/_footer') ?>
+<!-- End of footer -->
+
+</body>
+</html>
